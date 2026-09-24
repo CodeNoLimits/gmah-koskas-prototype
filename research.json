@@ -1,6 +1,6 @@
 {
-  "run_id": "a03cc28cfbe21642",
-  "finished_at": "2026-09-24T13:06:33.618855+00:00",
+  "run_id": "d4c73acd2f1b7b84",
+  "finished_at": "2026-09-24T13:11:14.174721+00:00",
   "status": "success",
   "engine": "Grok via abonnement local",
   "requested_model": "grok-4.5",
@@ -12,63 +12,63 @@
   "rejected_entries": 0,
   "prospects": [
     {
-      "name": "Fondation de France",
-      "kind": "Fondation",
-      "reason": "Hypothèse prudente: réseau philanthropique FR citant prêts d'honneur via fondations abritées; pertinence Gmah à confirmer hors scolarité/jeunesse et via appels à projets sociaux.",
-      "next": "Lire le guide des bourses et les appels Solidarité/vulnérabilité: critères prêts d'honneur, éligibilité asso 1901, calendrier, distinction bourse vs prêt.",
-      "url": "https://www.fondationdefrance.org/fr/etre-soutenu-par-la-fondation-de-france",
-      "evidence": "une centaine de nos 982 fondations abritées délivre chaque année environ 2",
-      "source_id": "S9",
-      "status": "À qualifier humainement"
-    },
-    {
-      "name": "Fonds Social Juif Unifié",
-      "kind": "Réseau solidaire",
-      "reason": "Hypothèse: relais social communautaire FR orientant la précarité vers partenaires; pas de preuve de prêts solidaires ici, plutôt orientation et complément d’aides.",
-      "next": "Consulter le répertoire social FSJU et critères d’orientation partenaires: existence éventuelle de prêts/Gmah, contacts travailleurs sociaux, régions couvertes.",
-      "url": "https://www.fsju.org/aider-les-plus-fragiles-en-france/",
-      "evidence": "Le FSJU soutient de nombreux programmes et associations partenaires pour venir en",
-      "source_id": "S7",
-      "status": "À qualifier humainement"
-    },
-    {
       "name": "Fondation du Judaïsme Français",
       "kind": "Fondation",
-      "reason": "Hypothèse: portail MyFJF pour demandes d’aides financières d’associations; domaine social/humanitaire annoncé, critères Gmah/prêts non précisés dans ces pages.",
-      "next": "Ouvrir MyFJF-Associations et pages actions social/humanitaire: typologies d’aides (don, subvention, prêt), pièces et éligibilité d’un Gmah francophone.",
+      "reason": "Hypothèse prudente: canal francophone juif d’aides aux associations (MyFJF) et axes social/humanitaire; pertinence Gmah à confirmer (prêts vs subventions, critères, abritées).",
+      "next": "Vérifier sur MyFJF et pages social/humanitaire si prêts solidaires/Gmah sont éligibles, calendrier, et liste des fondations abritées ouvertes aux dossiers.",
       "url": "https://www.fondationjudaisme.org/soumettre-un-projet/",
       "evidence": "Bienvenue sur MyFJF – Associations, le nouvel espace dédié aux associations. Créez",
       "source_id": "S5",
       "status": "À qualifier humainement"
     },
     {
-      "name": "AUJF",
+      "name": "Fonds Social Juif Unifié (FSJU)",
+      "kind": "Réseau solidaire",
+      "reason": "Hypothèse prudente: réseau social communautaire FR aidant à l’autonomie et orientant vers partenaires; relais d’écosystème plutôt que financeur Gmah prouvé ici.",
+      "next": "Consulter le répertoire social FSJU et pages partenaires pour tout dispositif de prêt/Gmah, puis demander les critères d’orientation associative.",
+      "url": "https://www.fsju.org/aider-les-plus-fragiles-en-france/",
+      "evidence": "Le FSJU soutient de nombreux programmes et associations partenaires pour venir en",
+      "source_id": "S7",
+      "status": "À qualifier humainement"
+    },
+    {
+      "name": "Fondation de France",
       "kind": "Fondation",
-      "reason": "Fondation abritée FJF: hypothèse de soutien familles en précarité et programmes jeunesse; activité de prêt solidaire non établie dans l’extrait fourni.",
-      "next": "Vérifier fiche complète AUJF sous FJF (missions, modalités de financement, contact) et si prêts ou uniquement subventions/accompagnement.",
-      "url": "https://www.fondationjudaisme.org/les-fondations-abritees/",
-      "evidence": "de renforcer le tissu associatif par des actions fortes et innovantes, de",
-      "source_id": "S6",
+      "reason": "Hypothèse prudente: philanthrope multi-causes; mention explicite de prêts d’honneur via fondations abritées — piste instrumentale proche d’un Gmah, hors don acquis.",
+      "next": "Lire le Guide des bourses et l’annuaire des fondations abritées pour repérer prêts d’honneur/solidaires, publics et appels ouverts aux structures.",
+      "url": "https://www.fondationdefrance.org/fr/etre-soutenu-par-la-fondation-de-france",
+      "evidence": "une centaine de nos 982 fondations abritées délivre chaque année environ 2",
+      "source_id": "S9",
       "status": "À qualifier humainement"
     },
     {
       "name": "France Active",
       "kind": "Relais francophone",
-      "reason": "Relais seulement: cité par la Fondation de France comme piste ESS d’accompagnement et financement; aucune page propre fournie, pas un donateur acquis.",
-      "next": "Vérifier sur le site France Active (hors corpus) offres prêt/garantie ESS et adéquation d’un Gmah de prêts solidaires francophones.",
+      "reason": "Relais cité par la Fondation de France pour accompagnement/financement d’entrepreneurs engagés (ESS); pas un donateur, piste de financement à croiser avec un Gmah.",
+      "next": "Vérifier sur France Active les produits (prêts, garanties) et l’éligibilité d’une structure Gmah francophone / ESS.",
       "url": "https://www.fondationdefrance.org/fr/etre-soutenu-par-la-fondation-de-france",
-      "evidence": "- Avise : ressources et dispositifs dédiés aux structures de l’économie sociale",
+      "evidence": "- France Active : accompagnement et financement des entrepreneurs engagés ;",
       "source_id": "S9",
       "status": "À qualifier humainement"
     },
     {
-      "name": "Avise",
-      "kind": "Relais francophone",
-      "reason": "Relais seulement: ressource ESS listée par la Fondation de France pour dispositifs; pas de preuve directe de prêts Gmah dans le matériel fourni.",
-      "next": "Identifier via Avise les dispositifs ESS de financement/prêt solidaire et têtes de réseau utiles à un Gmah, puis croiser critères d’éligibilité.",
-      "url": "https://www.fondationdefrance.org/fr/",
-      "evidence": "- Avise : ressources et dispositifs dédiés aux structures de l’économie sociale",
-      "source_id": "S4",
+      "name": "AUJF (fondation abritée FJF)",
+      "kind": "Fondation",
+      "reason": "Fondation abritée FJF: mission socio-éducative et soutien aux familles en précarité; pertinence Gmah non prouvée (nature des aides à vérifier).",
+      "next": "Sur la fiche abritée FJF AUJF, vérifier modalités de soutien (don, prêt, appel) et contact pour un projet de prêts solidaires.",
+      "url": "https://www.fondationjudaisme.org/les-fondations-abritees/",
+      "evidence": "de soutenir et d’accompagner les familles en situation de précarité, de financer",
+      "source_id": "S6",
+      "status": "À qualifier humainement"
+    },
+    {
+      "name": "Fondation Marc Amon (abritée FJF)",
+      "kind": "Fondation",
+      "reason": "Fondation abritée FJF visant l’insertion socioéconomique des jeunes (accompagnement/formations); hypothèse de convergence avec prêts solidaires à confirmer.",
+      "next": "Vérifier objet statutaire et appels de la fondation Marc Amon: prêts, bourses ou subventions, et public éligible.",
+      "url": "https://www.fondationjudaisme.org/les-fondations-abritees/",
+      "evidence": "Favoriser l’insertion socioéconomique des jeunes en les accompagnant et en leur proposant",
+      "source_id": "S6",
       "status": "À qualifier humainement"
     }
   ],
@@ -86,12 +86,12 @@
     {
       "id": "S3",
       "url": "https://www.qualita.org.il/",
-      "sha256": "dbeeacbde26a75e3f99c0e5946d8e06ea6a8b239e78de035ebab37eb01c0e1b4"
+      "sha256": "8d2a958134cde227f17ceb7326cb44e6fc8d1960f835db53c9ac738e0f6b527d"
     },
     {
       "id": "S4",
       "url": "https://www.fondationdefrance.org/fr/",
-      "sha256": "fe465212fb1905bbee98a6bd115ba0adf52e79843941d576e0cd49ad147d23f4"
+      "sha256": "ca85a7229a25bc7f876c8260baf255279b94c81f2bdd3486ea525bc1b048cc94"
     },
     {
       "id": "S5",
@@ -116,15 +116,15 @@
     {
       "id": "S9",
       "url": "https://www.fondationdefrance.org/fr/etre-soutenu-par-la-fondation-de-france",
-      "sha256": "12329ee5b90201885331a3195e0ec7d88560853f542334f1d966526e31668aa9"
+      "sha256": "c92af856f7425c05fffb7066ae0b2e75846b5c8e0be84f4a71d95daef5287345"
     },
     {
       "id": "S10",
       "url": "https://www.fondationdefrance.org/fr/appels-a-projets-fa/la-fondation-blanche-porte-lance-un-appel-a-projet-pour-favoriser-toutes-les-chances-de-bien-grandir-et-de-bien-eduquer",
-      "sha256": "3c8afa3b09331d0660d521eb76cf3055c23f4c03c179dafaf001fa0d2f3d211d"
+      "sha256": "ac442da1dfcafdb70db84dee8e91e028e829a4af9df665e272d876b9ace401af"
     }
   ],
   "failures": [],
-  "model_output_sha256": "34e69bba4a2698a66ee17f49c786407ad3a33561628f39b406079bff2035afff",
-  "reported_model": "grok-4.5-build"
+  "reported_model": "grok-4.5-build",
+  "model_output_sha256": "e4293f157c31363352e7f71cf3c06a15bd91bac04a9df5e9fb0b04b3460b08d0"
 }
